@@ -2,7 +2,9 @@
 
 # set up db
 rake db:migrate
+
 rake db:seed
+
 
 # Authentication
 base64 encode username:password --> use it in the follwing req to get the token using following URL
